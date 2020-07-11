@@ -45,7 +45,7 @@ this using the slicing features `Chain` provides:
 ```julia
 m = Chain(
       Dense(784, 64, relu),
-      Dense(64, 64, relu),
+      Dense(64, 32, relu),
       Dense(32, 10)
     )
 
